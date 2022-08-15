@@ -5,6 +5,9 @@ The AddressBook API serves as a backend API for mobile applications and websites
 
 #### 2.	Endpoints
 
+**/test**
+- Through this endpoint you may check that the API is live by getting a message "Hello world".
+
 **/auth/register**
 - Register a new user by sending a username and a password in JSON format. The input is validated. Both username and password are required. If passed, freshly registered user is stored in the database and issued a JWT token.
 
